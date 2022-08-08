@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, flash, redirect
-from forex_python.converter import CurrencyRates, CurrencyCodes
+from forex_python.converter import CurrencyRates, CurrencyCodes, RatesNotAvailableError
 
 
 app = Flask(__name__)
@@ -32,7 +32,7 @@ def get_currency():
     
 #     try:
 #         results = round(rates.convert(conv_from, conv_to, amount), 2)
-#         symbol = codes.get_symbol(convert_to)
+#         symbol = codes.get_symbol(conv_to)
 #         return render_template("rate.html", convert_from=conv_from, convert_to=conv_to, amount=amount, final_rate=results, symbol = symbol)
 #     except RatesNotAvailableError:
 #         flash("Please enter a valid currency")
