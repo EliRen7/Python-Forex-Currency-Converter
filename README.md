@@ -28,7 +28,7 @@ Forex Python is a Free Foreign exchange rates and currency conversion.
    pip install Flask forex-python
    
 4. Run the Flask application:
-  ```bash
+   ```bash
    flask run
 
 5. Open your web browser and go to http://localhost:5000 to use the currency converter.
