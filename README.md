@@ -40,6 +40,7 @@ Forex Python is a Free Foreign exchange rates and currency conversion.
 
 ## Technologies Used
 - Flask
+- Python
 - forex-python library
 - HTML
 - CSS
