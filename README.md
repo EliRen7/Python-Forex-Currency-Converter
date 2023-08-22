@@ -31,12 +31,15 @@ Forex Python is a Free Foreign exchange rates and currency conversion.
   ```bash
    flask run
 
+
 5. Open your web browser and go to http://localhost:5000 to use the currency converter.
+
 
 ## Usage
 1. Enter the currency code you are converting from and to, e.g., "USD" and "EUR".
 2. Enter the amount you want to convert.
 3. Click the "Convert" button to see the converted amount.
+
 
 ## Technologies Used
 - Flask
